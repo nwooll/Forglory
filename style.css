@@ -25,8 +25,10 @@ body {
   position: relative;
 }
 
+
+
 .bgimg1 {
-  background-image: url("bg2.jpg");
+  background-image: url("hero1.jpg");
 }
 
 .bgimg2 {
@@ -35,7 +37,7 @@ body {
 }
 
 .bgimg3 {
-  background-image: url("bg1.jpg");
+  background-image: url("hero3.jpg");
   height: 200px;
 }
 
@@ -95,6 +97,21 @@ p {
     min-height: 100%;
 
 }
+
+/*first Slide*/
+
+#logo img{
+    position: absolute;
+    margin: auto;
+    left:0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity:;
+   
+    
+    
+}
 /*2nd slide*/
 
 #abox1{
@@ -114,7 +131,11 @@ p {
 }
 
 #abox2{
-    background-color: #ddccee;
+    background-image: url("cardgif.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: white;
     position:absolute;
     margin: auto;
     left: 0;
@@ -128,7 +149,11 @@ p {
 }
 
 #abox3{
-    background-color: #ddccee;
+    background-color: white;
+    background-image: url("goodandevil.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
     position:absolute;
     margin-right: auto;
     right: 20px;
@@ -142,7 +167,11 @@ p {
 /*4th slide*/
 
 #ppbox1{
-    background-color: #ddccee;
+    background-image: url("animatediconz.gif");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
     position:absolute;
     margin: auto;
     left: 20px;
@@ -155,11 +184,10 @@ p {
 }
 
 #ppbox2{
-    background-image: url("Untitled-1.gif");
+    background-image: url("bulbous.gif");
     
     background-position: center;
     background-repeat: no-repeat;
-    background-size:contain;
     
     position:absolute;
     margin: auto;
@@ -174,7 +202,13 @@ p {
 }
 
 #ppbox3{
-    background-color: #ddccee;
+    background-image: url("designanimated.gif");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    background-color: white;
     position:absolute;
     margin-right: auto;
     right: 20px;
@@ -185,6 +219,24 @@ p {
     text-align: center;
     font-size: 36pt;
 }
+
+/*3rdslide*/
+
+#mVideo{
+    height: 100%;
+
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin:auto;
+*/
+
+}
+
+
+
 /*nav bar*/
 
 
